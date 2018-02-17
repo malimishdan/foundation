@@ -1,54 +1,55 @@
-# Foundation
+# Foundation Contributing Guidelines
 
-This is the Foundation project.  We love making super awesome stuff, but even more we like to empower people to make changes on their own.  Feel free to fork and improve Foundation.
+Although Foundation is maintained by ZURB, it’s also a community effort. Whether it’s bug fixing, feature development, or contributions to the ecosystem, designers and developers from all over the world help make Foundation the most advanced framework in the world.
 
-<!-- ### JavaScript
+A select group of our contributors have been dubbed *Yetinauts*. They have direct write access to the codebase and support the core Foundation team on the development of the framework. Are you interested in making your mark on the Foundation framework? Whether you’re just submitting bugs or helping us write new features, there are many ways to contribute to Foundation.
 
-The Foundation JS libraries are tested with qUnit. You can run the tests in your browser by opening up the respective `.html` files in `test/javascripts/tests/`.
+## Terms
 
-For more convenient testing using the command line and watcher functionality, you can also run the tests through Grunt with PhantomJS.
+- The **community** is anyone commenting on issues or opening pull requests. That includes you!
+- A **Yetinaut** is anyone with write access to the repository.
+- The **Core Team** is anyone on the Foundation Team.
 
-**Setting up Grunt for command line testing.**
+## Issues
 
-1. Install [PhantomJS](http://phantomjs.org/)
-2. Install [Node.js](http://nodejs.org/)
-3. You may need to reboot your machine to make sure your PATH is up to date.
-4. From the root of the project, `npm install`. This will install the grunt tasks locally.
-5. Install the grunt command line interface with `npm install -g grunt-cli`.
+Open an issue for any problem you have with the framework. If there's anything missing from your issue, such as extra context, a code sample, etc. a team member will ask for more info in the comments.
 
-Now you should have two new commands available. `grunt qunit` will execute all of the qUnit tests. `grunt watch` will watch for changes to the JS files and test files, and execute the tests when something changes. -->
+Support requests are generally better suited for the [Foundation Forum](http://foundation.zurb.com/forum), while GitHub is more appropriate for bugs. If you aren’t sure if your issue is a bug or not, don’t worry! Post your problem on GitHub and the team will help you along. Every participant is expected to follow the project's [Code of Conduct](code-of-conduct.md) so please be courteous and respectful.
 
-## Compass Project
+## Contributions
 
-If you have a compass project and would like updated assets you can run the following command at any given time from within your project directory:
+All new features and bug fixes should be submitted as pull requests, so the community can review and discuss them. Core Team members can commit directly to the repository for very small changes, but should generally also submit new code as a pull request.
 
-compass create -r zurb-foundation --using foundation
+When you submit a pull request, @mention a few people you’d like to help you review it. Once those people have signed off on it, the pull request can be merged! Core Team members will handle the merge itself.
 
-## Development
+## Git Workflow
 
-Want to test out the Compass templates.  Don't recompile the gem every time, use `bundler` like so:
+Foundation uses a git workflow close to [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/). The workflow relies on three branches:
+- **`master`**: The stable branch. It only contains the latest stable version released. Pull requests for docs improvements can be opened on it.
+- **`develop`**: The developing branch is used to prepare the next minor/major version. It always contains all the new features and bug fixes, and is the most up-to-date version of Foundation. Almost every pull request should be opened on this branch. When a new version is released, it is merged on `master`, a support branch is created, and `develop` now targets the next version.
+- **`support/*`**: Support branches are used to support the previous versions (i.e. `support/v6.4` for `v6.4.0`) and prepare patches (i.e. `v6.4.1`). When a pull request for a bug fix is merged on `develop` and is compatible with supported versions, its commits must be added on the compatible `support/*` branches too. A patch version can be then released. If a fix is not compatible with `develop`, a pull request can be opened on the latest compatible and supported `support/*` branch.
 
-```bash
-mkdir demo1
-cd demo1
-echo -e 'source "https://rubygems.org"\n
-gem "zurb-foundation", :path => "/path/to/foundation/repo"\n
-gem "compass"\n' > Gemfile
-bundle exec compass create -r zurb-foundation --using foundation
-```
+This git workflow was adopted as of `v6.3`, so `v6.2` and previous versions are not supported.
 
-On subsequent template updates use:
+## Coding Standards
 
-```bash
-bundle exec compass create -r zurb-foundation --using foundation --force
-```
+If you aren't sure how a feature should be implemented, we recommend checking out our [standards document](https://github.com/zurb/foundation-standards), which outlines every aspect of writing framework features, from Sass to JavaScript.
 
-## Contributing
+## Becoming a Yetinaut
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Test your changes to the best of your ability.  We've provided a test/ folder, feel free to add to it as necessary.
-4. Update the documentation to reflect your changes if they add or changes current functionality. Run `bundle && bundle exec foreman start` to compile to documentation. Make sure you are in the docs folder before you do this.
-5. Commit your changes (`git commit -am 'Added some feature'`)
-6. Push to the branch (`git push origin my-new-feature`)
-7. Create new Pull Request
+Want to join our crack team of Yetinauts? The Core Team is inviting active community members to become Yetinauts  on a case-by-case basis. If you want to become a contributor, engage the community on the Foundation Forum, help us close issues on GitHub, and review pull requests from other contributors.
+
+If you’ve made substantial contributions to a Foundation framework and haven’t heard from us yet, you can reach out at foundation@zurb.com.
+
+Contributors are expected to:
+
+- Engage the community on GitHub by responding to and tagging issues.
+- Write pull requests to address bugs and feature requests.
+- Help in reviewing pull requests from users, contributors, and the Core Team.
+- Follow the guidelines outlined in this document.
+
+Here are some example contributions from some of our awesome team members:
+
+- Colin Marshall converted our Sass unit tests to a newer test runner called True.
+- Andy Cochran reworked the CSS for button groups to fix issues with stacking and border radii.
+- designerno1 developed the Equalize by Row feature for the Equalizer plugin.
