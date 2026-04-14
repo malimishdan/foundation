@@ -1,138 +1,71 @@
-Welcome to Foundation
-=====================
+<p align="center">
+  <a href="https://get.foundation/">
+    <img src="https://user-images.githubusercontent.com/9939075/38782856-2a64a43e-40fa-11e8-89cd-e873af03b3c4.png" alt="Foundation for Sites 6" width="448px" style="max-width:100%;"/>
+  </a>
+</p>
 
-Foundation is the most advanced responsive front-end framework in the world. You can quickly prototype and build sites or apps that work on any kind of device with Foundation, which includes layout constructs (like a fully responsive grid), elements and best practices.
+<p align="center">
+  <a href="https://get.foundation/sites/docs/installation.html"><b>Install</b></a>
+  | <a href="https://get.foundation/sites/docs/">Documentation</a>
+  | <a href="https://github.com/foundation/foundation-sites/releases">Releases</a>
+  | <a href="CONTRIBUTING.md">Contributing</a>
+</p>
 
-Homepage:      http://foundation.zurb.com<br />
-Documentation: http://foundation.zurb.com/docs<br />
-Download:      http://foundation.zurb.com/download.php
+---
 
-Foundation is MIT-licensed and absolutely free to use. Foundation wouldn't be possible without the support of the entire ZURB team, our friends and colleagues who gave feedback, and some luminaries who did some heavy lifting that we took advantage of (thanks guys).
-
-Repo Contents
-=============
-
-* Base Source and Compilation Files for SCSS
-* Docs
-* README
-
-ZURB
-====
-
-Foundation was made by [ZURB](http://www.zurb.com), a product design company in Campbell, CA.
-
-If Foundation knocks your socks off the way we hope it does and you want more, why not check out [our jobs](http://www.zurb.com/talent)?
-
-Community
-=========
-
-Many thanks to all the people working on Foundation either to improve the base code or to support specific frameworks. If you want to get on this readme send an email to foundation@zurb.com, and if you have questions you can join the Unofficial Foundation Google Group here: http://groups.google.com/group/foundation-framework-
-
-WordPress (Versions marked 3/20/13)
-
-* [Reactor](https://github.com/awtheme/reactor) by Anthony Wilhelm using Foundation version 4
-* [Reverie](http://themefortress.com/reverie/) by Zhen using Foundation version 4
-* [Corner Stone](https://github.com/thewirelessguy/cornerstone) by [Stephen Mullen](https://twitter.com/wirelessguyuk) using Foundation version v4.09
-* [required+ Themes](http://themes.required.ch/) by required+ using Foundation version 3.25
-* [Yeti](https://github.com/modlearning/Yeti) by Modular Learning using Foundation version 3.2
-* [Starter Theme](https://github.com/drewsymo/Foundation) by Drew Morris using Foundation version 3
-* [WP-Foundation](http://320press.com/wp-foundation/features/) by 320press using Foundation version 3
-* [f415](https://github.com/javorszky/f415) by Gabor Javorszky
-* [Narga Core](https://github.com/Narga/narga-core) by Nguyễn Đình Quân
-
-Joomla
-
-* [Joomla Template](https://github.com/meridiansoftech/joomla_foundation_template) by Arnold Mwumva Ford, Meridian Softech
-* [Joomla Template](https://github.com/antonydoyle/siegeengine) by Antony Doyle, Siege21
-
-Drupal
-
-* [Drupal Theme](https://github.com/drewkennelly/foundation7) by Drew Kennelly
-* [Zurb Foundation](http://drupal.org/project/zurb-foundation) Supporting F3.2, F4 & Drupal 8  by [Ishmael Sanchez](http://ishmaelsanchez.com), [Chris Lee](http://hire.chrisjlee.net)
-* [Zoundation Theme](http://drupal.org/project/zoundation) by [Andrea Burton](https://twitter.com/andreaburton) & [Jeff Graham](https://twitter.com/jgraham909), FunnyMonkey
-
-Alfred
-* [Foundation Alfred](https://github.com/joshmedeski/foundation-alfred) by Josh Medeski (@joshmedeski)
-
-PyroCMS
-
-* [PyroYeti - PyroCMS Theme](https://github.com/pyrosuit/PyroYeti) by [Arnold Mwumva Ford](https://twitter.com/fordarnold) , Meridian Softech
-
-Django
-
-* [A foundation theme for the Pinax](http://pypi.python.org/pypi/pinax-theme-foundation) by Christopher Clarke, Kwesi Aguillera & Lendl Smith
-
-MODX
-
-* [MODX Version](http://designfromwithin.com/blog/2012/02/07/foundation-modx/) by Menno Pietersen
-
-.NET
-
-* [NuGet Package for ASP.Net MVC](http://www.nuget.org/packages/Foundation3_MVC4) by Edward Charbeneau, @EdCharbeneau
-
-Middleman
-
-* [Middleman Skeleton](https://github.com/axyz/middleman-zurb-foundation) by [Andrea Moretti](https://twitter.com/axyz)
-
-Magento
-* [Magento & Foundation](https://github.com/nandroid/MagentoFoundation) by Nandroid
-* [Waterlee Boilerplate](https://github.com/zeljkoprsa/waterlee-boilerplate) by Jake Sharp
-
-Python
-* [Pyramid Scaffold](https://github.com/ppinette/pyramid_foundation) by Parker Pinette
-
-CodeIgniter
-
-* [Responsive CodeIgniter BoilerPlate](https://github.com/meridiansoftech/meridian_ci_codebase) by [Arnold Mwumva Ford](https://twitter.com/fordarnold) , Meridian Softech
-
-Shopify
-
-* [Foundationify Shopify Theme](https://github.com/lukebussey/foundationify) by Luke Bussey
-
-Other Implementations
-
-* [Mobile First](https://github.com/adamfairhead/mobile-first-foundation) by Adam Fairhead
-* [Less Version](https://github.com/justinmarsan/FoundationLess) by Justin Marsan
-* [Less with Color Scheme](https://github.com/matalin/FoundationLess) by Matalin Hatchard
-
-Editors
-
-* [Textmate/Sublime Text2 Bundle](https://github.com/liamr/Zurb-Foundation-Textmate-Bundle) by Liam R, @liamr
-
-Templates
-
-* [Desktop, Tablet and Phone Grid PSD Templates](http://foundation.zurb.com/files/foundation-psd-templates.zip ) by Bruce Abel at Portfolio Creative Services Group
-* [HAML Web Templates](https://github.com/pbonnell/foundation_templates_haml) by Peter Bonnell
-
-Grid Generator
-
-* [Experimental Grid Generator](http://www.gridlover.net/foundation/) courtesy of [Ville Vanninen](http://foolproof.me)
-
-Grid displayer
-
-* [Grid displayer bookmarklet](http://alefeuvre.github.com/foundation-grid-displayer/) by [Antoine Lefeuvre](http://twitter.com/jiraisurfer)
-* [Responsive Design Bookmarklet](http://responsive.victorcoulon.fr/) by [Victor Coulon](https://twitter.com/_victa)
-* [Vertical Rhythm Grid Bookmarklet](http://gridwax.gs/) by [Kevin Altman](http://twitter.com/itg)
-
-Modular Scale
-
-* [Modular Scale](https://github.com/scottkellum/modular-scale) by Mason Wendell and Scott Kellum
-
-Ruby on Rails Sass Gems
-
-* [Foundation Icons 2](https://github.com/zaiste/foundation-icons-sass-rails) by J. P. Nowak
-
-Yeoman Generator
-
-* [Yeoman 1.0-Foundation 4](https://github.com/lkbgift/foundation4-yeoman) by [Leonard Bogdonoff](http://twitter.com/lkbcc)
-* [Yeoman-Foundation](https://npmjs.org/package/yeoman-foundation) by Vincent Mac
+[![Build Status](https://github.com/foundation/foundation-sites/workflows/CI/badge.svg)](https://github.com/foundation/foundation-sites/actions?workflow=CI)
+[![npm version](https://badge.fury.io/js/foundation-sites.svg)](https://badge.fury.io/js/foundation-sites)
+[![jsDelivr Hits](https://data.jsdelivr.com/v1/package/npm/foundation-sites/badge?style=rounded)](https://www.jsdelivr.com/package/npm/foundation-sites)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/da72b0f9-3d51-4d50-951e-6bbf5fe88601/deploy-status)](https://app.netlify.com/sites/foundation-sites/deploys)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=foundation_foundation-sites&metric=alert_status)](https://sonarcloud.io/dashboard?id=foundation_foundation-sites)
+[![Known Vulnerabilities](https://snyk.io/test/github/foundation/foundation-sites/badge.svg)](https://snyk.io/test/github/foundation/foundation-sites)
+<!-- [![BrowserStack Status](https://automate.browserstack.com/badge.svg?badge_key=ZlJCVGIxaEgvaFc4TWhBZ0hFWGtIMjBRZEw0UnFrUys3ZGdrbmZ6TW5lZz0tLU9wZUdFV2lmNVd1dU9XbWxuQ05BOGc9PQ==--915d78e23eeed2ae37ce7a670bc370011a9e4fd9)](https://automate.browserstack.com/public-build/ZlJCVGIxaEgvaFc4TWhBZ0hFWGtIMjBRZEw0UnFrUys3ZGdrbmZ6TW5lZz0tLU9wZUdFV2lmNVd1dU9XbWxuQ05BOGc9PQ==--915d78e23eeed2ae37ce7a670bc370011a9e4fd9) -->
 
 
-MIT Open Source License
-=======================
+Foundation is the most advanced responsive front-end framework in the world. Quickly go from prototype to production, building sites or apps that work on any kind of device with Foundation. Includes a fully customizable, responsive grid, a large library of Sass mixins, commonly used JavaScript plugins, and full accessibility support.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+---
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+## Run locally
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+### Documentation
+
+To run the documentation locally on your machine, you need [Node.js](https://nodejs.org/en/) installed on your computer. (Your Node.js version must be a **minimum of 18**). Run these commands to set up the documentation:
+
+```bash
+# Install
+git clone https://github.com/foundation/foundation-sites
+cd foundation-sites
+yarn
+
+# Start the documentation
+yarn start
+```
+
+### Testing
+
+Foundation has three kinds of tests: JavaScript, Sass, and visual regression. Refer to our [testing guide](https://github.com/foundation/foundation-sites/wiki/Testing-Guide) for more details.
+
+Run tests with:
+```bash
+# Sass unit tests
+yarn test:sass
+# JavaScript unit tests
+yarn test:javascript:units
+# Visual tests
+yarn test:visual
+```
+
+## Contributing
+
+Check out [CONTRIBUTING.md](CONTRIBUTING.md) to see how to report an issue or submit a bug fix or a new feature, and our [contributing guide](https://get.foundation/get-involved/contribute.html) to learn how you can contribute more globally to Foundation. You can also browse the [Help Wanted](https://github.com/foundation/foundation-sites/labels/help%20wanted) tag in our issue tracker to find things to do.
+
+## Testing powered by
+<a target="_blank" href="https://www.browserstack.com/"><img width="200" src="https://www.browserstack.com/images/layout/browserstack-logo-600x315.png"></a><br>
+[BrowserStack Open-Source Program](https://www.browserstack.com/open-source)
+
+<!-- ## Training
+
+Want the guided tour to Foundation from the team that built it? The ZURB team offers comprehensive training courses for developers of all skill levels. If you're new to Foundation, check out the [Introduction to Foundation Course](http://zurb.com/university/foundation-intro?utm_source=Github%20Repo&utm_medium=website&utm_campaign=readme&utm_content=readme%20training%20link) to kickstart your skills, amplify your productivity, and get a comprehensive overview of everything Foundation has to offer. More advanced users should check out the [Advanced Foundation Course](http://zurb.com/university/advanced-foundation-training?utm_source=Github%20Repo&utm_medium=website&utm_campaign=readme&utm_content=readme%20training%20link) to learn the Advanced skills that ZURB uses to deliver quality client work in short timeframes. -->
+
+Copyright © 2020 Foundation Community
